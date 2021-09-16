@@ -10,7 +10,7 @@
 -   Asynchronous: using RabbintMQ message.
 
 - Synchronous Form.
-  Just use the end-point /sending-email, sending a EmailDro.
+  Just use the end-point /sending-email, sending a EmailDto.
 
 - Asynchronous Form.
   The application connects to RabbitMQ e subscribe on ms.email queue. When a message arrives in the queue and it has the EmailModel form,
