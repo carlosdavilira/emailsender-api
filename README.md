@@ -1,11 +1,11 @@
 # emailsender-api
 - Requerements:
--   Ports: 8080(application), 5432(Postgre)
--   PostgreSQL
--   RabbitMQ configuration - In this case was used https://www.cloudamqp.com/
+   Ports: 8080(application), 5432(Postgre)
+   PostgreSQL
+   RabbitMQ configuration - In this case was used https://www.cloudamqp.com/
 
-- This projects is a microservice that the main objective is send and e-mail to a destination.
-- The e-mail request can be performed in two cases: 
+  This projects is a microservice that the main objective is send and e-mail to a destination.
+  The e-mail request can be performed in two cases: 
 -   Synchronous: using api REST.
 -   Asynchronous: using RabbintMQ message.
 
